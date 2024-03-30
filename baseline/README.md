@@ -10,6 +10,8 @@ Detecting flooded roads and buildings.
 3. Create and run the container (mount volumes to access your data, etc. see https://docs.docker.com/engine/reference/commandline/run/ for options)  
 `nvidia-docker run -it --rm sn8/baseline:1.0 bash`
 
+roxi:
+`nvidia-docker run -v $(pwd):$(pwd) -w $(pwd) -it --shm-size 8G --rm sn8/baseline:1.0 bash`
 
 ### Data Preparation
 Follow these steps to prepare data for training and validation. 
