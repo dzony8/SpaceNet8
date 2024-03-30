@@ -16,7 +16,7 @@ import random
 import skimage
 import argparse
 import cv2
-from osgeo import gdal, ogr, osr
+# from osgeo import gdal, ogr, osr
 from json import JSONDecodeError
 
 ###############################################################################
